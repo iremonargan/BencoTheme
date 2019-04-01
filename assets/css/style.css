@@ -1,0 +1,617 @@
+body {
+    color: #808080;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+#header {
+    margin: 0 15px;
+}
+
+#header .col-md-6 ul {
+    display: flex;
+}
+
+#header .head-2 ul {
+    float: right;
+    padding-right: 50px;
+}
+
+#header ul li {
+
+    font-size: 13px;
+    font-style: italic;
+    padding: 13px 25px 0 25px;
+    color: #808080;
+}
+
+.menu {
+    display: flex;
+    padding: 0 40px;
+}
+
+.logo {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.menus {
+    flex: 1;
+}
+
+.menus ul {
+    display: flex;
+
+}
+
+.menus ul li {
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-left: 50px;
+    color: #808080;
+    font-size: 14px;
+}
+
+.icons ul {
+    display: flex;
+}
+
+.icons ul li {
+    color: #808080;
+    padding-top: 45px;
+    padding-right: 45px;
+}
+
+.slider {
+    margin: 20px 0;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+
+}
+
+.ex-logo {
+    margin: 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.ex {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+.ex p,
+.ek-1 p {
+    width: 40%;
+}
+
+.ex a,
+.ek-1 a {
+    color: black;
+    padding-right: 10px;
+}
+
+.ex i,
+.ek-1 i {
+    color: #808080;
+    padding-left: 10px;
+}
+
+.ek-1 {
+    position: relative;
+}
+
+.ek {
+
+    margin: 100px 0 80px 0;
+    text-align: center;
+}
+
+.ek-1 img {
+    width: 80%;
+}
+
+.ek-1 h1 {
+    font-size: 60px;
+    width: 50%;
+    text-align: right;
+}
+
+.ek-1 p {
+    width: 60%;
+    text-align: right;
+}
+
+.ek-abs {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+hr.style-eight {
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    width: 30%;
+    border: none;
+    border-top: 2px solid #bfbfbf;
+    color: #bfbfbf;
+    text-align: center;
+
+}
+
+hr.style-eight:after {
+    content: "*";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+h4 {
+    text-align: center;
+}
+
+.feature-ex {
+    margin-top: 40px;
+    color: #949494;
+    font-style: italic;
+    text-align: center;
+}
+
+#product {
+    position: relative;
+    margin: 50px 150px;
+}
+
+#product .col-3 {
+    margin-bottom: 30px;
+}
+
+.star {
+    background: gray;
+}
+
+.star ul {
+
+    display: none;
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+
+}
+
+.icos ul {
+    display: none;
+    position: absolute;
+    bottom: 40%;
+    left: 15%;
+
+}
+
+.icos ul li {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.icos ul li:hover {
+    background: #4d4d4d;
+}
+
+
+.col-3:hover ul {
+    display: flex;
+}
+
+#product p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #595959;
+    text-align: center;
+}
+
+#product img {
+    width: 100%;
+
+}
+
+.detail {
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.details img {
+    width: 100%;
+
+}
+
+.hot-details {
+    position: absolute;
+    color: gainsboro;
+    text-align: center;
+    top: 20%;
+    left: 15%;
+}
+
+.hot-details p {
+
+    width: 80%;
+}
+
+.contact {
+    background: #f2f2f2;
+    padding: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact ul {
+    display: flex;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.contact ul li {
+    margin-left: 130px;
+}
+
+.contact .ico i {
+    padding: 30px;
+    background: #595959;
+    color: white;
+    border: 1px solid #595959;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.contact .bord {
+    color: #cccccc;
+    font-weight: 200;
+    text-align: center;
+}
+
+.contact .free {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.contact .yazi {
+    font-style: italic;
+    color: #949494;
+}
+
+.blog {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 400px;
+
+}
+
+.blog p {
+    width: 45%;
+}
+
+.customer {
+    margin: 50px 0;
+}
+
+.customer img {
+    width: 100%;
+}
+
+.customer {
+    position: relative;
+}
+
+.trans {
+    position: absolute;
+    top: 00%;
+    z-index: 1;
+    height: 502px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.trans2 {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 700px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.footer ul li {
+    margin-top: 50px;
+}
+
+.menu-xs ul {
+    display: flex;
+    margin-left: 450px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu-xs ul li {
+    padding-left: 50px;
+    color: #525252;
+}
+
+.icon ul {
+    display: flex;
+    margin-left: 580px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.icon ul li {
+    padding-left: 20px;
+    color: #525252;
+
+}
+
+.icon i {
+    border: 1px solid #525252;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.email {
+    margin-top: 50px;
+}
+
+.email input {
+    padding: 5px 190px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+::placeholder {
+    text-align: right;
+}
+
+button {
+    border: none;
+    background: transparent
+}
+
+.footer-xs {
+    background: #343434;
+    color: #d2d2d2;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-xsa,
+#product2 {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+
+    .menu,
+    .ex,
+    .ek-1,
+    #product,
+    .trans,
+    .trans2 {
+        display: none;
+    }
+
+    body {
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    #header .col-md-6 ul {
+        display: block;
+    }
+
+    #header .head-2 ul {
+        float: center;
+        padding-right: 90px;
+    }
+
+    .icon-xs {
+        text-align: center;
+    }
+
+    .icon-xs i {
+        margin: 40px 0;
+        padding: 0 10px;
+        color: #949494;
+    }
+
+    .logo-xs {
+        text-align: center;
+    }
+
+    .menu-xsa {
+
+        display: block;
+    }
+
+    .menus-xs {
+        display: flex;
+        background: #cef0a4;
+        margin: 0 40px;
+        padding: 5px 10px;
+        color: white;
+    }
+
+    .menu-xsa h5 {
+        flex: 1;
+    }
+
+    .contact ul {
+        display: block;
+    }
+
+    .feature-ex {
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .feature-ex p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .col-12 img {
+        width: 80%;
+    }
+
+    .contact {
+        padding: 40px 0 0 0px;
+        margin-top: 20px;
+
+    }
+
+    .ex-logo {
+        margin: 10px 0;
+        width: 10%;
+        top:400px;
+        left: 100px;
+    }
+        .ex-logo  img{
+       
+        width:100px;
+       
+    }
+
+    .contact ul {
+        display: block;
+        margin-left: 0px;
+
+    }
+
+    .contact ul li {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .contact .ico i {
+        padding: 23px;
+    }
+
+    .blog {
+        text-align: center;
+        display: block;
+        padding-top: 50px;
+        padding-left: 5px;
+
+    }
+
+    .blog p {
+        padding-bottom: 20px;
+        margin: auto;
+        text-align: left;
+        width: 70%;
+    }
+    .hot-details{
+        top: 60px;
+      left: 100px;
+    }
+    .hot-details p {
+        display: none;
+    }
+
+    .hot-details img {
+        width: 60%;
+      top: 100px;
+      left: 15%;
+    }
+
+    .footer {
+
+        padding-bottom: 50px;
+    }
+
+
+
+    .menu-xs ul {
+        display: flex;
+        margin-left: 0px;
+
+    }
+
+    .menu-xs ul li {
+        padding-left: 10px;
+        color: #525252;
+    }
+
+    .icon ul {
+        margin-left: 0px;
+    }
+
+
+
+    .email input {
+        padding: 5px 10px;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #d2d2d2;
+        border-bottom: 1px solid #d2d2d2;
+    }
+
+
+    button {
+        border: none;
+        background: transparent
+    }
+
+    .footer-xs {
+        background: #343434;
+        color: #d2d2d2;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    #product2 {
+        display: block;
+        margin: 20px 5px;
+    }
+
+    #product2 img {
+
+        width: 100%;
+    }
+
+    #product2 p {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #595959;
+        text-align: center;
+    }
+
+}

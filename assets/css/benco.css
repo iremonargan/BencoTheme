@@ -1,0 +1,1041 @@
+.benco, .benco-more, .benco-urun, .benco-detail, .benco-hesap {
+  font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+  color: #6f6f6f;
+  box-sizing: border-box !important;
+  font-size: 14px; }
+  .benco .column-max, .benco-more .column-max, .benco-urun .column-max, .benco-detail .column-max, .benco-hesap .column-max {
+    max-width: 95%;
+    margin: 0 auto; }
+  .benco .column-max-2, .benco-more .column-max-2, .benco-urun .column-max-2, .benco-detail .column-max-2, .benco-hesap .column-max-2 {
+    max-width: 75%;
+    margin: 0 auto; }
+  .benco header, .benco-more header, .benco-urun header, .benco-detail header, .benco-hesap header {
+    border-bottom: 1px solid #e1e1e1;
+    color: #afafaf; }
+    .benco header .header-left div, .benco-more header .header-left div, .benco-urun header .header-left div, .benco-detail header .header-left div, .benco-hesap header .header-left div, .benco header .header-right div, .benco-more header .header-right div, .benco-urun header .header-right div, .benco-detail header .header-right div, .benco-hesap header .header-right div {
+      border-left: 1px solid #e1e1e1;
+      padding: 0 27px;
+      height: 45px;
+      line-height: 45px;
+      margin: 0; }
+    .benco header .header-left p, .benco-more header .header-left p, .benco-urun header .header-left p, .benco-detail header .header-left p, .benco-hesap header .header-left p, .benco header .header-right p, .benco-more header .header-right p, .benco-urun header .header-right p, .benco-detail header .header-right p, .benco-hesap header .header-right p {
+      color: #afafaf;
+      font-size: 11px; }
+      .benco header .header-left p strong, .benco-more header .header-left p strong, .benco-urun header .header-left p strong, .benco-detail header .header-left p strong, .benco-hesap header .header-left p strong, .benco header .header-right p strong, .benco-more header .header-right p strong, .benco-urun header .header-right p strong, .benco-detail header .header-right p strong, .benco-hesap header .header-right p strong {
+        color: #434343;
+        font-style: italic; }
+    .benco header .header-right, .benco-more header .header-right, .benco-urun header .header-right, .benco-detail header .header-right, .benco-hesap header .header-right {
+      font-style: italic; }
+      .benco header .header-right select, .benco-more header .header-right select, .benco-urun header .header-right select, .benco-detail header .header-right select, .benco-hesap header .header-right select {
+        font-style: italic !important;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        position: relative; }
+  .benco nav, .benco-more nav, .benco-urun nav, .benco-detail nav, .benco-hesap nav {
+    padding: 25px 0; }
+    .benco nav ul, .benco-more nav ul, .benco-urun nav ul, .benco-detail nav ul, .benco-hesap nav ul {
+      list-style-type: none; }
+    .benco nav .icon li, .benco-more nav .icon li, .benco-urun nav .icon li, .benco-detail nav .icon li, .benco-hesap nav .icon li {
+      margin-right: 0; }
+    .benco nav .icon a, .benco-more nav .icon a, .benco-urun nav .icon a, .benco-detail nav .icon a, .benco-hesap nav .icon a {
+      color: #434343;
+      font-size: 18px; }
+    .benco nav img, .benco-more nav img, .benco-urun nav img, .benco-detail nav img, .benco-hesap nav img {
+      margin-right: 50px; }
+    .benco nav li, .benco-more nav li, .benco-urun nav li, .benco-detail nav li, .benco-hesap nav li {
+      margin-right: 50px; }
+      .benco nav li a, .benco-more nav li a, .benco-urun nav li a, .benco-detail nav li a, .benco-hesap nav li a {
+        padding-top: 0;
+        color: #afafaf;
+        font-size: 13px;
+        font-weight: 700;
+        height: 40px;
+        line-height: 40px;
+        text-transform: uppercase;
+        -webkit-transition: all .4s ease;
+        transition: all .4s ease; }
+    .benco nav .active a, .benco-more nav .active a, .benco-urun nav .active a, .benco-detail nav .active a, .benco-hesap nav .active a {
+      color: #434343; }
+  .benco .menu, .benco-more .menu, .benco-urun .menu, .benco-detail .menu, .benco-hesap .menu {
+    background: #c4df9b;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase; }
+    .benco .menu i, .benco-more .menu i, .benco-urun .menu i, .benco-detail .menu i, .benco-hesap .menu i {
+      color: white;
+      display: block;
+      float: right;
+      margin-left: 5px;
+      width: 22px; }
+  .benco .banner, .benco-more .banner, .benco-urun .banner, .benco-detail .banner, .benco-hesap .banner {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../assets/img/home1-static.jpg"); }
+    .benco .banner .banner-wrapper, .benco-more .banner .banner-wrapper, .benco-urun .banner .banner-wrapper, .benco-detail .banner .banner-wrapper, .benco-hesap .banner .banner-wrapper {
+      max-width: 550px;
+      text-align: right; }
+      .benco .banner .banner-wrapper .text, .benco-more .banner .banner-wrapper .text, .benco-urun .banner .banner-wrapper .text, .benco-detail .banner .banner-wrapper .text, .benco-hesap .banner .banner-wrapper .text {
+        position: relative;
+        font-style: italic;
+        margin-right: 70px;
+        padding-right: 30px; }
+      .benco .banner .banner-wrapper .text:before, .benco-more .banner .banner-wrapper .text:before, .benco-urun .banner .banner-wrapper .text:before, .benco-detail .banner .banner-wrapper .text:before, .benco-hesap .banner .banner-wrapper .text:before {
+        background: #434343;
+        bottom: 5px;
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        width: 2px;
+        z-index: 9; }
+      .benco .banner .banner-wrapper h4, .benco-more .banner .banner-wrapper h4, .benco-urun .banner .banner-wrapper h4, .benco-detail .banner .banner-wrapper h4, .benco-hesap .banner .banner-wrapper h4 {
+        color: #acacac;
+        font-size: 12px;
+        letter-spacing: 1.5em;
+        margin-right: -1.4em;
+        text-transform: uppercase; }
+      .benco .banner .banner-wrapper h2, .benco-more .banner .banner-wrapper h2, .benco-urun .banner .banner-wrapper h2, .benco-detail .banner .banner-wrapper h2, .benco-hesap .banner .banner-wrapper h2 {
+        display: inline-block;
+        font-size: 72px;
+        line-height: .9em;
+        margin-bottom: 35px;
+        max-width: 80%;
+        text-transform: uppercase; }
+      .benco .banner .banner-wrapper p a, .benco-more .banner .banner-wrapper p a, .benco-urun .banner .banner-wrapper p a, .benco-detail .banner .banner-wrapper p a, .benco-hesap .banner .banner-wrapper p a {
+        color: #434343;
+        display: inline-block;
+        font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 48px;
+        text-transform: uppercase; }
+  .benco section .head h1, .benco-more section .head h1, .benco-urun section .head h1, .benco-detail section .head h1, .benco-hesap section .head h1 {
+    width: 300px;
+    font-size: 15px;
+    color: #ededed; }
+  .benco section .head .one:before, .benco-more section .head .one:before, .benco-urun section .head .one:before, .benco-detail section .head .one:before, .benco-hesap section .head .one:before {
+    content: "";
+    display: block;
+    border-top: solid 2px #ededed;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1; }
+  .benco section .head .one, .benco-more section .head .one, .benco-urun section .head .one, .benco-detail section .head .one, .benco-hesap section .head .one {
+    position: relative; }
+  .benco section .head span, .benco-more section .head span, .benco-urun section .head span, .benco-detail section .head span, .benco-hesap section .head span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5; }
+  .benco section .head h3, .benco-more section .head h3, .benco-urun section .head h3, .benco-detail section .head h3, .benco-hesap section .head h3 {
+    color: #434343;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    position: relative; }
+  .benco section .head p, .benco-more section .head p, .benco-urun section .head p, .benco-detail section .head p, .benco-hesap section .head p {
+    font-style: italic;
+    letter-spacing: .03em; }
+  .benco section .head ul, .benco-more section .head ul, .benco-urun section .head ul, .benco-detail section .head ul, .benco-hesap section .head ul {
+    list-style-type: none;
+    margin: 0 15px 50px 15px;
+    padding: 0;
+    text-align: center; }
+    .benco section .head ul .active a, .benco-more section .head ul .active a, .benco-urun section .head ul .active a, .benco-detail section .head ul .active a, .benco-hesap section .head ul .active a {
+      color: #c4df9b; }
+    .benco section .head ul li, .benco-more section .head ul li, .benco-urun section .head ul li, .benco-detail section .head ul li, .benco-hesap section .head ul li {
+      margin: 0 15px 0 0;
+      vertical-align: top; }
+      .benco section .head ul li a, .benco-more section .head ul li a, .benco-urun section .head ul li a, .benco-detail section .head ul li a, .benco-hesap section .head ul li a {
+        color: #a2a2a2;
+        font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase; }
+    .benco section .head ul .list a::after, .benco-more section .head ul .list a::after, .benco-urun section .head ul .list a::after, .benco-detail section .head ul .list a::after, .benco-hesap section .head ul .list a::after {
+      background: #ededed;
+      content: '';
+      display: inline-block;
+      height: 2px;
+      margin: 0 0 0 10px;
+      vertical-align: middle;
+      width: 28px; }
+  .benco section .product, .benco-more section .product, .benco-urun section .product, .benco-detail section .product, .benco-hesap section .product {
+    margin-bottom: 60px; }
+    .benco section .product a, .benco-more section .product a, .benco-urun section .product a, .benco-detail section .product a, .benco-hesap section .product a {
+      color: #434343;
+      display: block;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 700; }
+    .benco section .product .ekstra, .benco-more section .product .ekstra, .benco-urun section .product .ekstra, .benco-detail section .product .ekstra, .benco-hesap section .product .ekstra {
+      color: #acacac;
+      text-decoration: line-through; }
+    .benco section .product span, .benco-more section .product span, .benco-urun section .product span, .benco-detail section .product span, .benco-hesap section .product span {
+      color: #434343;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0; }
+    .benco section .product .image:hover .rating, .benco-more section .product .image:hover .rating, .benco-urun section .product .image:hover .rating, .benco-detail section .product .image:hover .rating, .benco-hesap section .product .image:hover .rating {
+      opacity: 1 !important;
+      bottom: 66px !important; }
+    .benco section .product .image:hover ul, .benco-more section .product .image:hover ul, .benco-urun section .product .image:hover ul, .benco-detail section .product .image:hover ul, .benco-hesap section .product .image:hover ul {
+      bottom: 66px !important;
+      opacity: 1 !important; }
+    .benco section .product ul, .benco-more section .product ul, .benco-urun section .product ul, .benco-detail section .product ul, .benco-hesap section .product ul {
+      list-style-type: none;
+      clear: none;
+      left: 50%;
+      margin: 0;
+      padding: 0;
+      margin-right: -50%;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      filter: alpha(opacity=0);
+      opacity: 0;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      transition: all .4s ease; }
+      .benco section .product ul li, .benco-more section .product ul li, .benco-urun section .product ul li, .benco-detail section .product ul li, .benco-hesap section .product ul li {
+        margin: 0 5px; }
+        .benco section .product ul li i, .benco-more section .product ul li i, .benco-urun section .product ul li i, .benco-detail section .product ul li i, .benco-hesap section .product ul li i {
+          color: black; }
+        .benco section .product ul li a, .benco-more section .product ul li a, .benco-urun section .product ul li a, .benco-detail section .product ul li a, .benco-hesap section .product ul li a {
+          background: #fff;
+          border: none;
+          color: #434343;
+          display: block;
+          font-size: 0;
+          height: 46px;
+          letter-spacing: 0;
+          line-height: 46px;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          text-transform: none;
+          width: 46px;
+          -webkit-border-radius: 100%;
+          border-radius: 100%;
+          -webkit-transition: all .2s ease;
+          -moz-transition: all .2s ease;
+          -ms-transition: all .2s ease;
+          -o-transition: all .2s ease;
+          transition: all .2s ease;
+          -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1); }
+        .benco section .product ul li a:hover, .benco-more section .product ul li a:hover, .benco-urun section .product ul li a:hover, .benco-detail section .product ul li a:hover, .benco-hesap section .product ul li a:hover {
+          background: black;
+          color: white; }
+        .benco section .product ul li a::before, .benco-more section .product ul li a::before, .benco-urun section .product ul li a::before, .benco-detail section .product ul li a::before, .benco-hesap section .product ul li a::before {
+          display: inline-block;
+          font-family: Material-Design-Iconic-Font;
+          font-size: 16px;
+          vertical-align: top; }
+        .benco section .product ul li .ref::before, .benco-more section .product ul li .ref::before, .benco-urun section .product ul li .ref::before, .benco-detail section .product ul li .ref::before, .benco-hesap section .product ul li .ref::before {
+          content: '\f1b5'; }
+        .benco section .product ul li .hearth::before, .benco-more section .product ul li .hearth::before, .benco-urun section .product ul li .hearth::before, .benco-detail section .product ul li .hearth::before, .benco-hesap section .product ul li .hearth::before {
+          content: '\f15e'; }
+        .benco section .product ul li .search::before, .benco-more section .product ul li .search::before, .benco-urun section .product ul li .search::before, .benco-detail section .product ul li .search::before, .benco-hesap section .product ul li .search::before {
+          content: '\f1c3'; }
+        .benco section .product ul li .plus::before, .benco-more section .product ul li .plus::before, .benco-urun section .product ul li .plus::before, .benco-detail section .product ul li .plus::before, .benco-hesap section .product ul li .plus::before {
+          content: '\f1ca'; }
+    .benco section .product .rating, .benco-more section .product .rating, .benco-urun section .product .rating, .benco-detail section .product .rating, .benco-hesap section .product .rating {
+      background: rgba(67, 67, 67, 0.1);
+      bottom: 20px;
+      padding: 10px 0;
+      position: absolute;
+      text-align: center;
+      width: 90%;
+      z-index: 9;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+      .benco section .product .rating i, .benco-more section .product .rating i, .benco-urun section .product .rating i, .benco-detail section .product .rating i, .benco-hesap section .product .rating i {
+        font-size: 12px;
+        letter-spacing: 0; }
+  .benco section .hot-deal, .benco-more section .hot-deal, .benco-urun section .hot-deal, .benco-detail section .hot-deal, .benco-hesap section .hot-deal {
+    margin-bottom: 90px !important;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    background-image: url("../../assets/img/home1-fullbanner.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    color: #d8d8d8;
+    text-align: center; }
+    .benco section .hot-deal .hot_deals, .benco-more section .hot-deal .hot_deals, .benco-urun section .hot-deal .hot_deals, .benco-detail section .hot-deal .hot_deals, .benco-hesap section .hot-deal .hot_deals {
+      max-width: 900px;
+      margin: 0 auto; }
+      .benco section .hot-deal .hot_deals a, .benco-more section .hot-deal .hot_deals a, .benco-urun section .hot-deal .hot_deals a, .benco-detail section .hot-deal .hot_deals a, .benco-hesap section .hot-deal .hot_deals a {
+        color: #fff;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 50px;
+        text-transform: uppercase;
+        text-decoration: none; }
+      .benco section .hot-deal .hot_deals a:hover, .benco-more section .hot-deal .hot_deals a:hover, .benco-urun section .hot-deal .hot_deals a:hover, .benco-detail section .hot-deal .hot_deals a:hover, .benco-hesap section .hot-deal .hot_deals a:hover {
+        color: #c4df9b; }
+    .benco section .hot-deal h3, .benco-more section .hot-deal h3, .benco-urun section .hot-deal h3, .benco-detail section .hot-deal h3, .benco-hesap section .hot-deal h3 {
+      color: #fff;
+      font-size: 36px;
+      letter-spacing: .1em;
+      margin-bottom: 32px;
+      text-transform: uppercase; }
+    .benco section .hot-deal p, .benco-more section .hot-deal p, .benco-urun section .hot-deal p, .benco-detail section .hot-deal p, .benco-hesap section .hot-deal p {
+      font-style: italic;
+      line-height: 1.8; }
+  .benco section .shipping, .benco-more section .shipping, .benco-urun section .shipping, .benco-detail section .shipping, .benco-hesap section .shipping {
+    background-color: #f5f6f7 !important; }
+    .benco section .shipping .image, .benco-more section .shipping .image, .benco-urun section .shipping .image, .benco-detail section .shipping .image, .benco-hesap section .shipping .image {
+      margin-bottom: 15px;
+      position: relative; }
+    .benco section .shipping .image::after, .benco-more section .shipping .image::after, .benco-urun section .shipping .image::after, .benco-detail section .shipping .image::after, .benco-hesap section .shipping .image::after {
+      background: #e1e1e1;
+      content: '';
+      display: block;
+      height: 21px;
+      margin: 18px auto 0 auto;
+      width: 1px; }
+    .benco section .shipping h3, .benco-more section .shipping h3, .benco-urun section .shipping h3, .benco-detail section .shipping h3, .benco-hesap section .shipping h3 {
+      font-size: 12px;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+      color: #434343;
+      font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1.35; }
+    .benco section .shipping p, .benco-more section .shipping p, .benco-urun section .shipping p, .benco-detail section .shipping p, .benco-hesap section .shipping p {
+      color: #434343;
+      font-style: italic; }
+  .benco section .post a, .benco-more section .post a, .benco-urun section .post a, .benco-detail section .post a, .benco-hesap section .post a {
+    color: #434343;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .benco section .post .post-date, .benco-more section .post .post-date, .benco-urun section .post .post-date, .benco-detail section .post .post-date, .benco-hesap section .post .post-date {
+    color: #434343;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    left: -15%;
+    top: 15px;
+    line-height: 1;
+    padding-top: 3px;
+    position: absolute;
+    text-align: right;
+    width: 110px; }
+  .benco section .post .month, .benco-more section .post .month, .benco-urun section .post .month, .benco-detail section .post .month, .benco-hesap section .post .month {
+    display: block;
+    font-size: 12px; }
+  .benco section .post .day, .benco-more section .post .day, .benco-urun section .post .day, .benco-detail section .post .day, .benco-hesap section .post .day {
+    display: block;
+    font-size: 80px;
+    font-weight: 700; }
+  .benco section .post h3 a, .benco-more section .post h3 a, .benco-urun section .post h3 a, .benco-detail section .post h3 a, .benco-hesap section .post h3 a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    color: #434343; }
+  .benco section .post p, .benco-more section .post p, .benco-urun section .post p, .benco-detail section .post p, .benco-hesap section .post p {
+    margin-right: 20px;
+    font-size: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #717171;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-weight: 700; }
+    .benco section .post p a, .benco-more section .post p a, .benco-urun section .post p a, .benco-detail section .post p a, .benco-hesap section .post p a {
+      color: #434343; }
+    .benco section .post p strong, .benco-more section .post p strong, .benco-urun section .post p strong, .benco-detail section .post p strong, .benco-hesap section .post p strong {
+      color: #717171;
+      font-weight: 700; }
+  .benco section .post .posts p, .benco-more section .post .posts p, .benco-urun section .post .posts p, .benco-detail section .post .posts p, .benco-hesap section .post .posts p {
+    font-weight: 500;
+    text-transform: none;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 35px; }
+  .benco section .comment, .benco-more section .comment, .benco-urun section .comment, .benco-detail section .comment, .benco-hesap section .comment {
+    margin-bottom: 0px !important;
+    padding-top: 75px !important;
+    padding-bottom: 35px !important;
+    background-image: url("../../assets/img/customer.jpg");
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed; }
+    .benco section .comment .customer .col-4, .benco-more section .comment .customer .col-4, .benco-urun section .comment .customer .col-4, .benco-detail section .comment .customer .col-4, .benco-hesap section .comment .customer .col-4 {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07); }
+    .benco section .comment .customer .col-4:nth-child(2), .benco-more section .comment .customer .col-4:nth-child(2), .benco-urun section .comment .customer .col-4:nth-child(2), .benco-detail section .comment .customer .col-4:nth-child(2), .benco-hesap section .comment .customer .col-4:nth-child(2) {
+      border-left: 1px solid rgba(255, 255, 255, 0.07);
+      border-right: 1px solid rgba(255, 255, 255, 0.07); }
+    .benco section .comment .customer .col-4:nth-child(5), .benco-more section .comment .customer .col-4:nth-child(5), .benco-urun section .comment .customer .col-4:nth-child(5), .benco-detail section .comment .customer .col-4:nth-child(5), .benco-hesap section .comment .customer .col-4:nth-child(5) {
+      border-left: 1px solid rgba(255, 255, 255, 0.07);
+      border-right: 1px solid rgba(255, 255, 255, 0.07); }
+    .benco section .comment .customer p, .benco-more section .comment .customer p, .benco-urun section .comment .customer p, .benco-detail section .comment .customer p, .benco-hesap section .comment .customer p {
+      border: none;
+      color: #fff;
+      font-style: italic;
+      line-height: 2.1;
+      margin: 0 auto 30px auto;
+      max-width: 900px;
+      padding: 0 0 0 50px;
+      position: relative;
+      font-weight: 400;
+      text-align: left; }
+    .benco section .comment .customer img, .benco-more section .comment .customer img, .benco-urun section .comment .customer img, .benco-detail section .comment .customer img, .benco-hesap section .comment .customer img {
+      display: inline-block;
+      height: 65px;
+      width: 65px;
+      -webkit-border-radius: 100%;
+      border-radius: 100%; }
+    .benco section .comment .customer span, .benco-more section .comment .customer span, .benco-urun section .comment .customer span, .benco-detail section .comment .customer span, .benco-hesap section .comment .customer span {
+      color: #fff;
+      font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+      font-weight: 700; }
+    .benco section .comment .customer .text, .benco-more section .comment .customer .text, .benco-urun section .comment .customer .text, .benco-detail section .comment .customer .text, .benco-hesap section .comment .customer .text {
+      color: #888;
+      font-style: italic;
+      margin: 0; }
+  .benco footer ul, .benco-more footer ul, .benco-urun footer ul, .benco-detail footer ul, .benco-hesap footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    .benco footer ul li, .benco-more footer ul li, .benco-urun footer ul li, .benco-detail footer ul li, .benco-hesap footer ul li {
+      display: inline-block;
+      margin: 0 20px 0 0; }
+      .benco footer ul li a, .benco-more footer ul li a, .benco-urun footer ul li a, .benco-detail footer ul li a, .benco-hesap footer ul li a {
+        text-decoration: none;
+        -webkit-transition: all .4s ease 0s;
+        transition: all .4s ease 0s;
+        color: #a2a2a2;
+        font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .benco footer ul li a:hover, .benco-more footer ul li a:hover, .benco-urun footer ul li a:hover, .benco-detail footer ul li a:hover, .benco-hesap footer ul li a:hover {
+        color: #c4df9b; }
+  .benco footer .social ul, .benco-more footer .social ul, .benco-urun footer .social ul, .benco-detail footer .social ul, .benco-hesap footer .social ul {
+    margin: 0 0 60px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%; }
+    .benco footer .social ul li, .benco-more footer .social ul li, .benco-urun footer .social ul li, .benco-detail footer .social ul li, .benco-hesap footer .social ul li {
+      display: inline-block;
+      margin: 0 20px 0 0;
+      position: relative;
+      vertical-align: middle;
+      z-index: 2; }
+      .benco footer .social ul li a, .benco-more footer .social ul li a, .benco-urun footer .social ul li a, .benco-detail footer .social ul li a, .benco-hesap footer .social ul li a {
+        border: 1px solid #e1e1e1;
+        color: #acacac;
+        display: block;
+        height: 32px;
+        line-height: 30px;
+        text-align: center;
+        width: 32px;
+        text-decoration: none;
+        -webkit-border-radius: 100%;
+        border-radius: 100%; }
+        .benco footer .social ul li a i, .benco-more footer .social ul li a i, .benco-urun footer .social ul li a i, .benco-detail footer .social ul li a i, .benco-hesap footer .social ul li a i {
+          font-size: 12px;
+          line-height: inherit; }
+      .benco footer .social ul li a:hover, .benco-more footer .social ul li a:hover, .benco-urun footer .social ul li a:hover, .benco-detail footer .social ul li a:hover, .benco-hesap footer .social ul li a:hover {
+        border: 1px solid #434343;
+        color: #434343; }
+  .benco footer form div, .benco-more footer form div, .benco-urun footer form div, .benco-detail footer form div, .benco-hesap footer form div {
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    text-align: left;
+    vertical-align: middle; }
+    .benco footer form div input, .benco-more footer form div input, .benco-urun footer form div input, .benco-detail footer form div input, .benco-hesap footer form div input {
+      background: none;
+      border: none;
+      color: #a2a2a2;
+      display: block;
+      float: left;
+      font-size: 13px;
+      font-style: italic;
+      height: 53px;
+      line-height: 53px;
+      max-width: 100%;
+      outline: none;
+      padding: 0 30px 0 0;
+      position: relative;
+      text-align: left;
+      white-space: nowrap;
+      width: 700px; }
+    .benco footer form div button, .benco-more footer form div button, .benco-urun footer form div button, .benco-detail footer form div button, .benco-hesap footer form div button {
+      background: none;
+      border: none;
+      color: #a2a2a2;
+      float: left;
+      font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      height: 53px;
+      line-height: 53px;
+      outline: none;
+      text-transform: uppercase;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+    .benco footer form div button:hover, .benco-more footer form div button:hover, .benco-urun footer form div button:hover, .benco-detail footer form div button:hover, .benco-hesap footer form div button:hover {
+      color: #c4df9b;
+      cursor: pointer; }
+  .benco footer .footer-end, .benco-more footer .footer-end, .benco-urun footer .footer-end, .benco-detail footer .footer-end, .benco-hesap footer .footer-end {
+    font-style: italic;
+    color: #a2a2a2;
+    background-color: #232323 !important; }
+
+.benco-more nav, .benco-urun nav, .benco-detail nav {
+  padding: 25px 0; }
+.benco-more section nav, .benco-urun section nav, .benco-detail section nav {
+  padding: 0; }
+  .benco-more section nav ol, .benco-urun section nav ol, .benco-detail section nav ol {
+    background: transparent !important; }
+    .benco-more section nav ol li, .benco-urun section nav ol li, .benco-detail section nav ol li {
+      margin-right: 0; }
+      .benco-more section nav ol li a, .benco-urun section nav ol li a, .benco-detail section nav ol li a {
+        text-transform: none;
+        font-family: Droid Serif, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: italic;
+        -webkit-transition: all .4s ease 0s;
+        transition: all .4s ease 0s;
+        color: #afafaf;
+        font-weight: 300; }
+.benco-more section .option aside, .benco-urun section .option aside, .benco-detail section .option aside {
+  margin: 0 0 30px 0;
+  width: 100%; }
+  .benco-more section .option aside h3, .benco-urun section .option aside h3, .benco-detail section .option aside h3 {
+    border-bottom: 2px solid #434343;
+    color: #434343;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    width: 100%; }
+  .benco-more section .option aside .catagories, .benco-urun section .option aside .catagories, .benco-detail section .option aside .catagories {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .benco-more section .option aside .catagories li, .benco-urun section .option aside .catagories li, .benco-detail section .option aside .catagories li {
+      border-bottom: 1px solid #e1e1e1;
+      margin: 0;
+      padding: 10px 0;
+      padding-right: 25px;
+      position: relative; }
+      .benco-more section .option aside .catagories li a, .benco-urun section .option aside .catagories li a, .benco-detail section .option aside .catagories li a {
+        text-decoration: none;
+        display: block;
+        color: #acacac;
+        font-style: italic;
+        -webkit-transition: all .4s ease 0s;
+        transition: all .4s ease 0s; }
+      .benco-more section .option aside .catagories li .active, .benco-urun section .option aside .catagories li .active, .benco-detail section .option aside .catagories li .active {
+        color: #c4df9b; }
+      .benco-more section .option aside .catagories li span, .benco-urun section .option aside .catagories li span, .benco-detail section .option aside .catagories li span {
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        -webkit-transition: all .4s ease 0s;
+        transition: all .4s ease 0s;
+        top: 9px;
+        color: #acacac; }
+    .benco-more section .option aside .catagories li:hover a, .benco-urun section .option aside .catagories li:hover a, .benco-detail section .option aside .catagories li:hover a {
+      color: #c4df9b; }
+    .benco-more section .option aside .catagories li:hover span, .benco-urun section .option aside .catagories li:hover span, .benco-detail section .option aside .catagories li:hover span {
+      color: #c4df9b; }
+  .benco-more section .option aside label, .benco-urun section .option aside label, .benco-detail section .option aside label {
+    font-size: 14px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px; }
+  .benco-more section .option aside input, .benco-urun section .option aside input, .benco-detail section .option aside input {
+    color: #434343;
+    font-size: 15px;
+    display: block;
+    width: 75%;
+    font-weight: bold; }
+  .benco-more section .option aside button, .benco-urun section .option aside button, .benco-detail section .option aside button {
+    background: #434343;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    height: 35px;
+    letter-spacing: 0;
+    line-height: 35px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    padding: 0 15px;
+    text-transform: capitalize;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer; }
+  .benco-more section .option aside button:hover, .benco-urun section .option aside button:hover, .benco-detail section .option aside button:hover {
+    background: #c4df9b;
+    color: white; }
+  .benco-more section .option aside img, .benco-urun section .option aside img, .benco-detail section .option aside img {
+    width: 90px; }
+  .benco-more section .option aside .rated, .benco-urun section .option aside .rated, .benco-detail section .option aside .rated {
+    list-style: none outside;
+    padding: 0;
+    margin: 0; }
+    .benco-more section .option aside .rated li, .benco-urun section .option aside .rated li, .benco-detail section .option aside .rated li {
+      margin-bottom: 30px;
+      padding: 0; }
+      .benco-more section .option aside .rated li a, .benco-urun section .option aside .rated li a, .benco-detail section .option aside .rated li a {
+        color: #434343;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 1.3;
+        margin: 0 0 10px;
+        text-transform: none;
+        text-decoration: none; }
+        .benco-more section .option aside .rated li a span, .benco-urun section .option aside .rated li a span, .benco-detail section .option aside .rated li a span {
+          color: #434343;
+          font-size: 16px;
+          font-weight: bold; }
+    .benco-more section .option aside .rated .star-rating span, .benco-urun section .option aside .rated .star-rating span, .benco-detail section .option aside .rated .star-rating span {
+      display: block;
+      margin: 0 0 5px 0;
+      width: 47px;
+      font-size: 10px; }
+  .benco-more section .option aside .compare, .benco-urun section .option aside .compare, .benco-detail section .option aside .compare {
+    margin-bottom: 20px;
+    padding: 0;
+    list-style-type: none; }
+    .benco-more section .option aside .compare a, .benco-urun section .option aside .compare a, .benco-detail section .option aside .compare a {
+      font-size: inherit;
+      height: 35px;
+      line-height: 35px;
+      color: #afafaf;
+      text-decoration: none; }
+  .benco-more section .option aside .tags a, .benco-urun section .option aside .tags a, .benco-detail section .option aside .tags a {
+    background: #f1f1f1;
+    border: none;
+    color: #666 !important;
+    display: inline-block;
+    font-size: 1em !important;
+    margin: 0 5px 10px 0;
+    padding: 3px 12px;
+    text-transform: capitalize;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none; }
+  .benco-more section .option aside .tags a:hover, .benco-urun section .option aside .tags a:hover, .benco-detail section .option aside .tags a:hover {
+    background: #c4df9b;
+    color: white !important; }
+.benco-more section .option .right-side .toolbar, .benco-urun section .option .right-side .toolbar, .benco-detail section .option .right-side .toolbar {
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  color: #434343;
+  margin: 0 0 60px 0;
+  padding: 12px 0;
+  position: relative;
+  width: 100%; }
+  .benco-more section .option .right-side .toolbar .view a, .benco-urun section .option .right-side .toolbar .view a, .benco-detail section .option .right-side .toolbar .view a {
+    border: 1px solid #e1e1e1;
+    color: #afafaf;
+    padding: 5px;
+    border-radius: 3px; }
+  .benco-more section .option .right-side .toolbar .view .active, .benco-urun section .option .right-side .toolbar .view .active, .benco-detail section .option .right-side .toolbar .view .active {
+    border: 1px solid #434343;
+    color: #434343; }
+  .benco-more section .option .right-side .toolbar p, .benco-urun section .option .right-side .toolbar p, .benco-detail section .option .right-side .toolbar p {
+    font-style: italic;
+    color: #434343; }
+  .benco-more section .option .right-side .toolbar form select, .benco-urun section .option .right-side .toolbar form select, .benco-detail section .option .right-side .toolbar form select {
+    height: 36px;
+    line-height: 34px;
+    min-width: 180px;
+    padding: 0 15px;
+    text-align: left;
+    -webkit-border-radius: 50px;
+    border-radius: 50px; }
+
+.benco-urun section h4 {
+  color: #434343;
+  font-weight: 600; }
+.benco-urun section table {
+  color: #afafaf;
+  font-size: 14px; }
+  .benco-urun section table thead {
+    background: black;
+    color: #afafaf; }
+  .benco-urun section table img {
+    width: 80px; }
+.benco-urun section .bilgi .kargo {
+  width: 300px; }
+  .benco-urun section .bilgi .kargo .tarih {
+    background: #e7e7e7; }
+  .benco-urun section .bilgi .kargo p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600; }
+    .benco-urun section .bilgi .kargo p span {
+      font-weight: 400;
+      color: #afafaf; }
+
+.benco-hesap section label {
+  font-size: 14px;
+  color: #434343; }
+.benco-hesap section input, .benco-hesap section select {
+  background: transparent; }
+.benco-hesap section input::placeholder {
+  font-size: 14px;
+  color: #afafaf; }
+.benco-hesap section h4, .benco-hesap section h6 {
+  color: black;
+  font-weight: 600; }
+.benco-hesap section .ekle {
+  color: #c4df9b;
+  font-weight: 500;
+  font-size: 14px; }
+.benco-hesap section .kaldir {
+  color: darkred;
+  font-weight: 500;
+  font-size: 14px; }
+.benco-hesap section .guncelle {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  background: #c4df9b; }
+.benco-hesap section .head .hesap {
+  background: #e7e7e7;
+  border: 1px solid darkgrey; }
+  .benco-hesap section .head .hesap p {
+    font-size: 14px;
+    color: black; }
+    .benco-hesap section .head .hesap p span {
+      background: transparent;
+      padding: 0;
+      color: #afafaf; }
+
+.benco-detail .product-detail .product-nav h1 {
+  color: #434343;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.35; }
+.benco-detail .product-detail .product-nav .next, .benco-detail .product-detail .product-nav .prev {
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  color: #d1d1d1;
+  display: block;
+  float: left;
+  font-size: 15px;
+  height: 30px;
+  line-height: 28px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 30px; }
+.benco-detail .product-detail .star span i {
+  color: #434343;
+  font-size: 12px;
+  letter-spacing: 0; }
+.benco-detail .product-detail .star span a {
+  color: #acacac;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-style: italic;
+  text-decoration: none;
+  -webkit-transition: all .4s ease 0s;
+  transition: all .4s ease 0s; }
+.benco-detail .product-detail .star span a:hover {
+  color: #c4df9b; }
+.benco-detail .product-detail .price span {
+  color: #acacac;
+  font-size: 19px;
+  font-weight: normal;
+  text-decoration: line-through; }
+.benco-detail .product-detail .price .bold {
+  color: #434343;
+  font-family: Droid Serif, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none; }
+.benco-detail .product-detail .number input {
+  background: none;
+  color: #434343;
+  font-family: Droid Serif, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 46px;
+  line-height: 46px;
+  padding: 0;
+  width: 60px;
+  background: #fff;
+  border: 1px solid #e1e1e1; }
+.benco-detail .product-detail .number a {
+  background: #434343;
+  border: none;
+  color: #fff;
+  font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: 46px;
+  margin: 0;
+  text-decoration: none;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+.benco-detail .product-detail .wish a {
+  background: none;
+  border: 1px solid #e1e1e1;
+  color: #434343;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: normal;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  width: 170px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  text-decoration: none; }
+.benco-detail .product-detail .wish a:hover {
+  color: #c4df9b; }
+.benco-detail .product-detail .categories span {
+  color: #434343;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 10px;
+  text-transform: uppercase; }
+  .benco-detail .product-detail .categories span a {
+    color: #6f6f6f;
+    text-decoration: none;
+    font-weight: 400;
+    webkit-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    text-transform: none; }
+  .benco-detail .product-detail .categories span a:hover {
+    color: #c4df9b; }
+.benco-detail .product-detail .social .face, .benco-detail .product-detail .social .twit {
+  background: #4267b2;
+  border: 1px solid #4267b2;
+  color: #fff;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  -webkit-user-select: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  font-size: 11px;
+  padding: 0 0 0 2px;
+  height: 20px;
+  vertical-align: middle;
+  width: 64px; }
+.benco-detail .product-detail .social .twit {
+  background-color: #1b95e0; }
+.benco-detail .product-detail .social .google {
+  color: #db4437;
+  height: 20px;
+  padding: 0 3px;
+  border: 1px solid #ededed; }
+.benco-detail .product-detail .widget {
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 15px 0 5px 0;
+  width: 100%; }
+  .benco-detail .product-detail .widget h3 {
+    color: #434343;
+    display: inline-block;
+    font-family: Droid Serif, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 15px;
+    text-transform: uppercase; }
+  .benco-detail .product-detail .widget ul {
+    list-style-type: none;
+    padding: 0; }
+    .benco-detail .product-detail .widget ul li {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: 15px;
+      position: relative; }
+      .benco-detail .product-detail .widget ul li a {
+        color: #6f6f6f;
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none; }
+      .benco-detail .product-detail .widget ul li a:hover {
+        color: #c4df9b; }
+.benco-detail .description ul {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0 0 30px 0;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  text-align: left; }
+.benco-detail .description a {
+  color: #434343;
+  font-weight: 700; }
+.benco-detail .description .active {
+  color: #434343;
+  background: transparent; }
+.benco-detail .description .aktif {
+  border-bottom: 2px solid black; }
+.benco-detail .description .desc {
+  border: 1px solid #e1e1e1;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1em;
+  line-height: 2.4;
+  margin: 0;
+  padding: 30px 20px;
+  color: #6f6f6f; }
+  .benco-detail .description .desc h2 {
+    font-size: 1.143em;
+    color: #434343;
+    font-weight: 700; }
+.benco-detail .description .star span i {
+  color: #434343;
+  font-size: 12px;
+  letter-spacing: 0; }
+.benco-detail .description .star span a {
+  color: #acacac;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-style: italic;
+  text-decoration: none;
+  -webkit-transition: all .4s ease 0s;
+  transition: all .4s ease 0s; }
+.benco-detail .description .star span a:hover {
+  color: #c4df9b; }
+.benco-detail .description .comments .comment-text {
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  margin-left: 20px;
+  position: relative;
+  padding: 1em 1em 0; }
+  .benco-detail .description .comments .comment-text p {
+    margin: 0 0 1em; }
+.benco-detail .description .comments .comment-text:before {
+  background: #fff;
+  border-bottom: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+  content: '';
+  display: block;
+  height: 10px;
+  left: -6px;
+  position: absolute;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px; }
+.benco-detail .description h3 {
+  font-size: 1em;
+  margin: 0 0 20px;
+  color: #434343;
+  font-weight: 700; }
+.benco-detail .description textarea {
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  height: 125px;
+  padding: 10px;
+  width: 100%;
+  background: #e9e9e9; }
+.benco-detail .description input {
+  background: #e9e9e9;
+  border: none;
+  border-radius: 0;
+  height: 55px;
+  line-height: 55px;
+  max-width: 100%;
+  padding: 0 0 0 10px;
+  vertical-align: middle; }
+.benco-detail .description button {
+  background: transparent;
+  border: 2px solid #e1e1e1;
+  color: #434343;
+  font-size: 1.167em;
+  font-weight: 600;
+  height: 55px;
+  letter-spacing: 0;
+  line-height: 51px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 30px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  white-space: nowrap;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+
+@media screen and (max-width: 992px) {
+  .benco .column-max-2, .benco-more .column-max-2, .benco-urun .column-max-2, .benco-detail .column-max-2, .benco-hesap .column-max-2 {
+    max-width: 85%; }
+  .benco header .header-left div, .benco-more header .header-left div, .benco-urun header .header-left div, .benco-detail header .header-left div, .benco-hesap header .header-left div, .benco header .header-right div, .benco-more header .header-right div, .benco-urun header .header-right div, .benco-detail header .header-right div, .benco-hesap header .header-right div {
+    border-left: 0; } }
+
+/*# sourceMappingURL=benco.css.map */
